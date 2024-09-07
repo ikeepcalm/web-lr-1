@@ -118,8 +118,13 @@ ol {
 
 .angels {
     grid-area: y;
+    align-self: center;
     background-color: antiquewhite;
-    padding: 5px;
-    width: max(100%, 100px);
-    height: max-content;
+    padding: 2px;
+    width: max(80%, 100px);
+}
+
+.image{
+    display: flex;
+    justify-content: center;
 }
